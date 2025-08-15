@@ -1,0 +1,19 @@
+.quote-img-left {
+    width: 75px;
+    margin-bottom: 50px;
+}
+
+.quote-img-right {
+    width: 75px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .quote-img-left {
+        margin-bottom: 10px;
+    }
+
+    .quote-img-right {
+        margin-top: 10px;
+    }
+}
