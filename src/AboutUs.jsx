@@ -32,7 +32,7 @@ function AboutUs() {
             <h1 className="text-center display-4 pt-3" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", lineHeight: "1.4" }}>
                 <strong className="pt-3" style={{ background: "linear-gradient(90deg, #003853ff, #4f2500ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Our 4 Pillars</strong>
             </h1>
-            <div className="container my-5 px-5 d-flex justify-content-center align-items-center">
+            <div className="container my-5 px-2 d-flex justify-content-center align-items-center">
                 <div className="row g-5" style={{ width: "100%" }}>
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
