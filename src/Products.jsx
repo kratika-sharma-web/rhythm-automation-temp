@@ -13,7 +13,7 @@ function Products() {
                 <div className="card h-100 shadow border-0" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginBottom: "5rem" }}>
                     <div className="row g-0" style={{ minHeight: "100%" }}>
                         <div className="col-md-6">
-                            <img src="/productsElectrical.jpg" className="img-fluid h-100" alt="Electrical" style={{ objectFit: "cover", borderRadius: "0rem" }} />
+                            <img src="./productsElectrical.jpg" className="img-fluid h-100" alt="Electrical" style={{ objectFit: "cover", borderRadius: "0rem" }} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center ps-5 pe-3 py-3" style={{ minHeight: "100%", display: "flex" }}>
                             <div>
@@ -48,14 +48,14 @@ function Products() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/productsAutomation.jpeg" className="img-fluid h-100" alt="Automation" style={{ objectFit: "cover", borderRadius: "0rem" }} />
+                            <img src="./productsAutomation.jpeg" className="img-fluid h-100" alt="Automation" style={{ objectFit: "cover", borderRadius: "0rem" }} />
                         </div>
                     </div>
                 </div>
                 <div className="card h-100 shadow border-0" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginTop: "5rem", marginBottom: "5rem" }}>
                     <div className="row g-0" style={{ minHeight: "100%" }}>
                         <div className="col-md-6">
-                            <img src="/productsInstrumentation.jpg" className="img-fluid h-100" alt="Instrumentation" style={{ objectFit: "cover", borderRadius: "0rem" }} />
+                            <img src="./productsInstrumentation.jpg" className="img-fluid h-100" alt="Instrumentation" style={{ objectFit: "cover", borderRadius: "0rem" }} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center ps-5 pe-3 py-3" style={{ minHeight: "100%", display: "flex" }}>
                             <div>

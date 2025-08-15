@@ -10,7 +10,7 @@ function FooterBar() {
             <div className="container row py-3 ps-5 pe-1 text-start d-flex">
                 <div className="col-md-7 col-sm-12 align-items-center">
                     <div className="pt-2">
-                        <img src="/logo.png" alt="Rhythm Automation" width={125} />
+                        <img src="./logo.png" alt="Rhythm Automation" width={125} />
                     </div>
                     <br />
                     <div className="py-2 d-flex flex-row">

@@ -32,7 +32,7 @@ function Services() {
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesSugarMills.jpg" alt="Sugar Mills" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesSugarMills.jpg" alt="Sugar Mills" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #f7c3b7ff, #ffa5a5ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Sugar Mills</h2>
@@ -63,7 +63,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesPaperAndPulp.jpg" alt="Paper & Pulp" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesPaperAndPulp.jpg" alt="Paper & Pulp" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ function Services() {
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesMetalsAndMinerals.jpg" alt="Metals & Minerals" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesMetalsAndMinerals.jpg" alt="Metals & Minerals" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #fff8b8ff, #fffd73ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Metals & Minerals</h2>
@@ -106,7 +106,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesCementMills.jpg" alt="Cement Mills" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesCementMills.jpg" alt="Cement Mills" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ function Services() {
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesSolar.jpg" alt="Solar" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesSolar.jpg" alt="Solar" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #c4f2eeff, #83f8eeff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Solar</h2>
@@ -143,7 +143,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesWaterAndWasteWater.jpg" alt="Water & Waste Water" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesWaterAndWasteWater.jpg" alt="Water & Waste Water" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ function Services() {
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesMaterialHandling.jpg" alt="Material Handling" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesMaterialHandling.jpg" alt="Material Handling" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #f0bbe6ff, #ed82daff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Material Handling</h2>
@@ -182,7 +182,7 @@ function Services() {
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesPowerSector.jpg" alt="Power Sector" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesPowerSector.jpg" alt="Power Sector" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@ function Services() {
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-6 col-sm-12 text-center">
-                            <img src="/servicesOthers.jpg" alt="Other Services" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
+                            <img src="./servicesOthers.jpg" alt="Other Services" className="img-fluid rounded-circle shadow" style={{ maxHeight: "400px", width: "100%" }} />
                         </div>
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #bbf2c2ff, #80ff8fff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Other Services</h2>
