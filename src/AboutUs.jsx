@@ -37,7 +37,7 @@ function AboutUs() {
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <div className="p-5">
-                                <img src="./AnirudhaGupta.png" className="card-img-top rounded" alt="Anirudha Gupta" />
+                                <img src="/AnirudhaGupta.png" className="card-img-top rounded" alt="Anirudha Gupta" />
                             </div>
                             <div className="card-body text-center pt-0 pb-4">
                                 <h3 className="card-title pt-1 pb-3">Anirudha Gupta</h3>
@@ -50,7 +50,7 @@ function AboutUs() {
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <div className="p-5">
-                                <img src="./AnilSharma.png" className="card-img-top rounded" alt="Anil Sharma" />
+                                <img src="/AnilSharma.png" className="card-img-top rounded" alt="Anil Sharma" />
                             </div>
                             <div className="card-body text-center pt-0 pb-4">
                                 <h3 className="card-title pt-1 pb-3">Anil Sharma</h3>
@@ -63,7 +63,7 @@ function AboutUs() {
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <div className="p-5">
-                                <img src="./MurariSharma.png" className="card-img-top rounded" alt="Murari Sharma" />
+                                <img src="/MurariSharma.png" className="card-img-top rounded" alt="Murari Sharma" />
                             </div>
                             <div className="card-body text-center pt-0 pb-4">
                                 <h3 className="card-title pt-1 pb-3">Murari Sharma</h3>
@@ -76,7 +76,7 @@ function AboutUs() {
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <div className="p-5">
-                                <img src="./YogeshSingh.png" className="card-img-top rounded" alt="Yogesh Singh" />
+                                <img src="/YogeshSingh.png" className="card-img-top rounded" alt="Yogesh Singh" />
                             </div>
                             <div className="card-body text-center pt-0 pb-4">
                                 <h3 className="card-title pt-1 pb-3">Yogesh Singh</h3>
@@ -123,7 +123,7 @@ function AboutUs() {
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer2.png" className="p-4" style={{ width: "100%" }} alt="Certificate-2" />
+                                    <img src="/cer2.png" className="p-4" style={{ width: "100%" }} alt="Certificate-2" />
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ function AboutUs() {
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer5.png" className="p-4" style={{ width: "100%" }} alt="Certificate-5" />
+                                    <img src="/cer5.png" className="p-4" style={{ width: "100%" }} alt="Certificate-5" />
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ function AboutUs() {
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer4.png" className="p-4" style={{ width: "100%" }} alt="Certificate-4" />
+                                    <img src="/cer4.png" className="p-4" style={{ width: "100%" }} alt="Certificate-4" />
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ function AboutUs() {
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer1.png" className="p-4" style={{ width: "100%" }} alt="Certificate-1" />
+                                    <img src="/cer1.png" className="p-4" style={{ width: "100%" }} alt="Certificate-1" />
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ function AboutUs() {
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer3.png" className="p-4" style={{ width: "100%" }} alt="Certificate-3" />
+                                    <img src="/cer3.png" className="p-4" style={{ width: "100%" }} alt="Certificate-3" />
                                 </div>
                             </div>
                         </div>
