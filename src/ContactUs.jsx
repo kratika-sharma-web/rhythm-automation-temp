@@ -70,15 +70,15 @@ function ContactUs() {
                 <form>
                     <div className="input-group mb-3">
                         <span className="input-group-text fw-semibold" id="basic-addon1">Name</span>
-                        <input type="text" className="form-control" placeholder="name here..." onChange={(e) => setContactUsName(e.target.value)} aria-label="Name" aria-describedby="basic-addon1" />
+                        <input type="text" className="form-control" placeholder="" onChange={(e) => setContactUsName(e.target.value)} aria-label="Name" aria-describedby="basic-addon1" />
                     </div>
                     <div className="input-group mb-3">
                         <span className="input-group-text fw-semibold" id="basic-addon2">Email</span>
-                        <input type="email" className="form-control" placeholder="email here..." onChange={(e) => setContactUsEmail(e.target.value)} aria-label="Email" aria-describedby="basic-addon2" />
+                        <input type="email" className="form-control" placeholder="" onChange={(e) => setContactUsEmail(e.target.value)} aria-label="Email" aria-describedby="basic-addon2" />
                     </div>
                     <div className="input-group mb-3">
                         <span className="input-group-text fw-semibold" id="basic-addon3">Message</span>
-                        <textarea className="form-control" placeholder="message here..." onChange={(e) => setContactUsMessage(e.target.value)} aria-label="With textarea" aria-describedby="basic-addon3"></textarea>
+                        <textarea className="form-control" placeholder="" onChange={(e) => setContactUsMessage(e.target.value)} aria-label="With textarea" aria-describedby="basic-addon3"></textarea>
                     </div>
                     <div className="input-group d-flex align-items-center justify-content-center">
                         <button type="button" className="btn btn-success" style={{ width: "10rem" }} onClick={() => handleContactUsSubmit()}>Send</button>

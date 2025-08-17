@@ -22,7 +22,7 @@ function HomePage() {
                     <div className="carousel-item active">
                         <img src="./homePageBackgroundTop.png" className="d-block w-100" alt="" style={{ objectFit: "cover", height: "100vh", filter: "brightness(80%)" }} />
                         <div className="carousel-caption d-flex justify-content-center align-items-center" style={{ top: "0", bottom: "0" }}>
-                            <h1 className="fw-bold display-2" style={{ background: "linear-gradient(90deg, #c110e8ff, #f30606ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Rhythm Automation</h1>
+                            <h1 className="fw-bold display-2" style={{ background: "linear-gradient(90deg, #d3f0ffff, #fce3cdff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Rhythm Automation</h1>
                         </div>
                     </div>
                 </div>
@@ -120,81 +120,99 @@ function HomePage() {
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesSugarMills.jpg" className="card-img-top" alt="Sugar Mills" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Sugar Mills</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesSugarMills")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Sugar Mills</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesSugarMills")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesPaperAndPulp.jpg" className="card-img-top" alt="Paper & Pulp" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Paper & Pulp</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesPaperAndPulp")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Paper & Pulp</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesPaperAndPulp")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesMetalsAndMinerals.jpg" className="card-img-top" alt="Metals & Minerals" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Metals & Minerals</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesMetalsAndMinerals")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Metals & Minerals</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesMetalsAndMinerals")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesCementMills.jpg" className="card-img-top" alt="Cement Mills" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Cement Mills</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesCementMills")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Cement Mills</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesCementMills")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesSolar.jpg" className="card-img-top" alt="Solar" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Solar</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesSolar")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Solar</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesSolar")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesWaterAndWasteWater.jpg" className="card-img-top" alt="Water & Waste Water" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Water & Waste Water</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesWaterAndWasteWater")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Water & Waste Water</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesWaterAndWasteWater")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesMaterialHandling.jpg" className="card-img-top" alt="Material Handling" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Material Handling</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesMaterialHandling")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Material Handling</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesMaterialHandling")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesPowerSector.jpg" className="card-img-top" alt="Power Sector" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Power Sector</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesPowerSector")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Power Sector</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesPowerSector")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
                             <img src="./servicesOthers.jpg" className="card-img-top" alt="Other Services" />
-                            <div className="card-body text-center pb-4">
-                                <h3 className="card-title pt-1 pb-3">Other Services</h3>
-                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesOthers")}>Explore <CgChevronDoubleRight size={25} /></button>
+                            <div className="card-body text-center pb-2 justify-content-center d-flex align-items-center">
+                                <h3 className="card-title pt-1">Other Services</h3>
+                            </div>
+                            <div className="card-footer bg-white border-0 text-center">
+                                <button className="btn btn-secondary justify-content-center p-0 ps-3 pe-2 mb-3" style={{ width: "auto", height: "40px" }} onClick={() => setServiceSelected("servicesOthers")}>Explore <CgChevronDoubleRight size={25} /></button>
                             </div>
                         </div>
                     </div>
@@ -498,7 +516,7 @@ function HomePage() {
                             <div className="p-4 text-white rounded shadow" style={{ backgroundColor: "rgba(0,0,0,0.8)" }}>
                                 <h4 className="fw-bold text-center">Vision</h4>
                                 <p className="mb-0 text-center fw-medium" style={{ background: "linear-gradient(90deg, #cbfebdff, #74fe97ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>
-                                    Our vision is to be the first choice of customer by providing the best products / technical solutions & excellent service support in the field of Industrial Control and Automation - One stop shop for all electrical & automation needs
+                                    Our vision is to be the first choice of customer by providing the best products / technical solutions & excellent service support in the field of Industrial Control and Automation - One stop shop for all electrical & automation needs.
                                 </p>
                             </div>
                         </div>
@@ -506,7 +524,7 @@ function HomePage() {
                             <div className="p-4 text-white rounded shadow" style={{ backgroundColor: "rgba(0,0,0,0.8)" }}>
                                 <h4 className="fw-bold text-center">Mission</h4>
                                 <p className="mb-0 text-center fw-medium" style={{ background: "linear-gradient(90deg, #fe9292ff, #ffc1b3ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>
-                                    Our mission is to provide best possible products & services to our clients which can help them to reduce their machine down time, improve productivity while guaranteeing lowest cost of ownership
+                                    Our mission is to provide best possible products & services to our clients which can help them to reduce their machine down time, improve productivity while guaranteeing lowest cost of ownership.
                                 </p>
                             </div>
                         </div>
@@ -514,7 +532,7 @@ function HomePage() {
                             <div className="p-4 text-white rounded shadow" style={{ backgroundColor: "rgba(0,0,0,0.8)" }}>
                                 <h4 className="fw-bold text-center">Quality Policy</h4>
                                 <p className="mb-0 text-center fw-medium" style={{ background: "linear-gradient(90deg, #b8edffff, #718dffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>
-                                    We are committed to total customer satisfaction by providing our best services all the times. We pledge to meet or exceed customer expectations which can make them delightful
+                                    We are committed to total customer satisfaction by providing our best services all the times. We pledge to meet or exceed customer expectations which can make them delightful.
                                 </p>
                             </div>
                         </div>
