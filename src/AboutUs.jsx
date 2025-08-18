@@ -23,7 +23,7 @@ function AboutUs() {
                                 The management team has good industrial experience of 24+ years, providing added value through a high level of product and solution support in Electrical and Automation Industries.
                             </p>
                             <p style={{ background: "linear-gradient(135deg, #940000ff, #70008aff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                The company's strength lies in quick and expert after sales services. This is proved by the repeated orders and more then 20 plant AMCs. It maintains sufficient stock of all the products offered, as its works in Noida to provide prompt service to the customers.
+                                The company's strength lies in quick and expert after sales services. This is proved by the repeated orders and more then 20 plant AMCs. It maintains sufficient stock of all the products offered, as it works in Noida to provide prompt service to the customers.
                             </p>
                         </strong>
                     </div>
