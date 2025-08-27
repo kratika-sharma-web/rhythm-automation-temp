@@ -16,13 +16,13 @@ function Header() {
                                     <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
+                                    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/aboutUs">About Us</NavLink>
+                                </li>
+                                <li className="nav-item">
                                     <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/services">Services</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/products">Products</NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/aboutUs">About Us</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/contactUs">Contact Us</NavLink>

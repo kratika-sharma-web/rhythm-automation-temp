@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import "./AboutUs.css"
 
 function AboutUs() {
     useEffect(() => {
@@ -32,58 +33,64 @@ function AboutUs() {
             <h1 className="text-center display-4 pt-3" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", lineHeight: "1.4" }}>
                 <strong className="pt-3" style={{ background: "linear-gradient(90deg, #003853ff, #4f2500ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Our 4 Pillars</strong>
             </h1>
-            <div className="container my-5 px-2 d-flex justify-content-center align-items-center">
-                <div className="row g-5" style={{ width: "100%" }}>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="p-5">
-                                <img src="./AnirudhaGupta.png" className="card-img-top rounded" alt="Anirudha Gupta" />
-                            </div>
-                            <div className="card-body text-center pt-0 pb-4">
-                                <h3 className="card-title pt-1 pb-3">Anirudha Gupta</h3>
-                                <p className="fw-medium px-4" style={{ background: "linear-gradient(90deg, #47004fff, #9300a3ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
+            <div className="container mt-5 px-5">
+                <div className="card h-100 shadow border" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginBottom: "5rem" }}>
+                    <div className="row g-0" style={{ minHeight: "100%" }}>
+                        <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+                            <img src="./AnirudhaGupta.png" className="img-fluid rounded" alt="Anirudha Gupta" style={{ objectFit: "cover" }} />
+                        </div>
+                        <div className="col-md-9 d-flex align-items-center pillar-text-right" style={{ minHeight: "100%", display: "flex" }}>
+                            <div>
+                                <h3 className="card-title pb-2">Anirudha Gupta</h3>
+                                <p className="fw-medium" style={{ background: "linear-gradient(90deg, #9300a3ff, #47004fff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
                                     A well-rounded Sales & Marketing Professional with a rich experience of 24+ years in the field of Electrical, Automation & Controls having exposure in all aspects of Sales operations, Business Development and Product Marketing. Started career as a service engineer in automation field later worked with reputed multinational as Business Head, Country Head and last worked with Belden Inc. as Director - India & South Asia.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="p-5">
-                                <img src="./AnilSharma.png" className="card-img-top rounded" alt="Anil Sharma" />
-                            </div>
-                            <div className="card-body text-center pt-0 pb-4">
-                                <h3 className="card-title pt-1 pb-3">Anil Sharma</h3>
-                                <p className="fw-medium px-4" style={{ background: "linear-gradient(90deg, #0f9400ff, #074300ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
+                </div>
+                <div className="card h-100 shadow border" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginTop: "5rem", marginBottom: "5rem" }}>
+                    <div className="row g-0" style={{ minHeight: "100%" }}>
+                        <div className="col-md-9 d-flex align-items-center pillar-text-left" style={{ minHeight: "100%", display: "flex" }}>
+                            <div>
+                                <h3 className="card-title pb-2">Anil Sharma</h3>
+                                <p className="fw-medium" style={{ background: "linear-gradient(90deg, #074300ff, #0f9400ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
                                     Mr. Anil Kumar Sharma is a seasoned professional with over two decades of experience in the automation field. He is currently serving as the Director of Application Engineering in RACPL, where he is responsible for overseeing the company's operations and driving growth. Mr. Sharma holds a degree in Electrical Engineering and began his career as a service engineer in the automation industry. He quickly rose through the ranks and gained valuable experience working with some of the leading companies in the field. Prior to joining RACPL, he served as the Vice President of the Automation Products division at ABB, India, where he was responsible for application engineering and system design. As the Director of RACPL, Mr. Sharma is committed to driving the company's growth by expanding its product offerings, improving operational efficiency, and fostering a culture of innovation. He is passionate about helping his clients succeed and is dedicated to delivering high-quality products and services that exceed their expectations.
                                 </p>
                             </div>
                         </div>
+                        <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+                            <img src="./AnilSharma.png" className="img-fluid rounded" alt="Anil Sharma" style={{ objectFit: "cover", borderRadius: "0rem" }} />
+                        </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="p-5">
-                                <img src="./MurariSharma.png" className="card-img-top rounded" alt="Murari Sharma" />
-                            </div>
-                            <div className="card-body text-center pt-0 pb-4">
-                                <h3 className="card-title pt-1 pb-3">Murari Sharma</h3>
-                                <p className="fw-medium px-4" style={{ background: "linear-gradient(90deg, #00067dff, #000ce9ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
+                </div>
+                <div className="card h-100 shadow border" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginBottom: "5rem" }}>
+                    <div className="row g-0" style={{ minHeight: "100%" }}>
+                        <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+                            <img src="./MurariSharma.png" className="img-fluid rounded" alt="Murari Sharma" style={{ objectFit: "cover" }} />
+                        </div>
+                        <div className="col-md-9 d-flex align-items-center pillar-text-right" style={{ minHeight: "100%", display: "flex" }}>
+                            <div>
+                                <h3 className="card-title pb-2">Murari Sharma</h3>
+                                <p className="fw-medium" style={{ background: "linear-gradient(90deg, #000ce9ff, #00067dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
                                     Mr. Sharma holds a degree in Electronics Engineering and began his career as an automation maintenance engineer in the cement process industry. He quickly established himself as a skilled professional with a deep understanding of automation systems and technologies. Prior to joining RACPL, Mr. Sharma served as the Service & Customer Support Head for Northern India in the Automation Products division at ABB, India. In this role, he was responsible for managing the service and support operations for automation products across a wide range of industries. As the Director of Technical Support in RACPL, Mr. Sharma is committed to driving the company's growth and success by developing innovative solutions that meet the evolving needs of his clients. He is passionate about using technology to drive business outcomes and is dedicated to delivering exceptional customer service and support.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="p-5">
-                                <img src="./YogeshSingh.png" className="card-img-top rounded" alt="Yogesh Singh" />
-                            </div>
-                            <div className="card-body text-center pt-0 pb-4">
-                                <h3 className="card-title pt-1 pb-3">Yogesh Singh</h3>
-                                <p className="fw-medium px-4" style={{ background: "linear-gradient(90deg, #c70000ff, #740000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
+                </div>
+                <div className="card h-100 shadow border" style={{ width: "100%", borderRadius: "25px", overflow: "hidden", marginTop: "5rem", marginBottom: "5rem" }}>
+                    <div className="row g-0" style={{ minHeight: "100%" }}>
+                        <div className="col-md-9 d-flex align-items-center pillar-text-left" style={{ minHeight: "100%", display: "flex" }}>
+                            <div>
+                                <h3 className="card-title pb-2">Yogesh Singh</h3>
+                                <p className="fw-medium" style={{ background: "linear-gradient(90deg, #740000ff, #c70000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "justify" }}>
                                     As the Director of Technical RACPL, Mr. Singh is committed to driving the company's growth and success by developing innovative solutions that meet the evolving needs of his clients. He is passionate about using technology to drive business outcomes and is dedicated to delivering exceptional customer service and support. Prior to founding RACPL, Mr. Singh served as the Project Execution Head for Northern India in the Automation Products division at ABB, India. In this role, he was responsible for managing and executing automation projects across a wide range of industries. He demonstrated his expertise in project management and successfully delivered several high-profile projects that met or exceeded client expectations. Throughout his career, Mr. Singh has developed a reputation for his technical expertise, attention to detail, and leadership skills. He has a keen ability to manage complex projects and teams, ensuring that projects are completed on time, within budget, and to the highest quality standards.
                                 </p>
                             </div>
+                        </div>
+                        <div className="col-md-3 d-flex justify-content-center align-items-center p-5">
+                            <img src="./YogeshSingh.png" className="img-fluid rounded" alt="Yogesh Singh" style={{ objectFit: "cover", borderRadius: "0rem" }} />
                         </div>
                     </div>
                 </div>
