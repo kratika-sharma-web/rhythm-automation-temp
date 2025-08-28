@@ -17,19 +17,15 @@ function Careers() {
                 <div className="row g-5" style={{ width: "100%" }}>
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="card-body text-center pt-0 pb-4 px-4">
+                            <div className="card-body text-center pt-0 pb-2 px-4">
                                 <h3 className="card-title py-3 fw-bolder" style={{ background: "linear-gradient(90deg, #59006dff, #670000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Design and Commissioning Engineering</h3>
-                                <div className="accordion" id="accordionExampleOne">
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header">
-                                            <button className="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Senior Commissioning Engineer (PLC Drives and Scada)
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExampleOne">
-                                            <div className="accordion-body" style={{ textAlign: "left" }}>
-                                                Location:- Noida, Uttar Pradesh
-                                            </div>
+                                <div>
+                                    <div className="card rounded mb-3 border-2" style={{ overflow: "hidden" }}>
+                                        <div className="card-header bg-light fw-medium py-3">
+                                            Senior Commissioning Engineer (PLC Drives and Scada)
+                                        </div>
+                                        <div className="card-body" style={{ textAlign: "left" }}>
+                                            <p className="mb-0">Location:- Noida, Uttar Pradesh</p>
                                         </div>
                                     </div>
                                 </div>
@@ -38,30 +34,24 @@ function Careers() {
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <div className="card h-100 shadow border-0" style={{ width: "100%" }}>
-                            <div className="card-body text-center pt-0 pb-4 px-4">
+                            <div className="card-body text-center pt-0 pb-2 px-4">
                                 <h3 className="card-title py-3 fw-bolder" style={{ background: "linear-gradient(90deg, #670000ff, #59006dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Sales</h3>
-                                <div className="accordion" id="accordionExampleTwo">
-                                    <div className="accordion-item rounded mb-3" style={{ overflow: "hidden" }}>
-                                        <h2 className="accordion-header">
-                                            <button className="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                                Sales Engineer
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" className="accordion-collapse collapse show" data-bs-parent="#accordionExampleTwo">
-                                            <div className="accordion-body" style={{ textAlign: "left" }}>
-                                                Location:- Noida, Uttar Pradesh
-                                            </div>
+                                <div>
+                                    <div className="card rounded mb-3 border-2" style={{ overflow: "hidden" }}>
+                                        <div className="card-header bg-light fw-medium py-3">
+                                            Sales Engineer
+                                        </div>
+                                        <div className="card-body" style={{ textAlign: "left" }}>
+                                            <p className="mb-0">Location:- Noida, Uttar Pradesh</p>
                                         </div>
                                     </div>
-                                    <div className="accordion-item rounded" style={{ overflow: "hidden" }}>
-                                        <h2 className="accordion-header">
-                                            <button className="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                                Sales Operations Engineer
-                                            </button>
-                                        </h2>
+                                    <div className="card rounded mb-3 border-2" style={{ overflow: "hidden" }}>
+                                        <div className="card-header bg-light fw-medium py-3">
+                                            Sales Operations Engineer
+                                        </div>
                                         <div id="collapseThree" className="accordion-collapse collapse show" data-bs-parent="#accordionExampleThree">
-                                            <div className="accordion-body" style={{ textAlign: "left" }}>
-                                                Location:- Noida, Uttar Pradesh
+                                            <div className="card-body" style={{ textAlign: "left" }}>
+                                                <p className="mb-0">Location:- Noida, Uttar Pradesh</p>
                                             </div>
                                         </div>
                                     </div>
