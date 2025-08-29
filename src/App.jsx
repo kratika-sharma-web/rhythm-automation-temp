@@ -3,11 +3,12 @@ import Header from './Header'
 import Footer from './Footer'
 import FooterBar from './FooterBar'
 import HomePage from './homePage'
-import Services from './Services'
-import Products from './Products'
 import AboutUs from './AboutUs'
-import ContactUs from './ContactUs'
+import Products from './Products'
+import Services from './Services'
+import Clients from './Clients'
 import Careers from './Careers'
+import ContactUs from './ContactUs'
 import RechargeEV from './RechargeEV'
 
 function App() {
@@ -22,10 +23,11 @@ function App() {
             <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='/aboutUs' element={<AboutUs />} />
-              <Route path='/services' element={<Services />} />
               <Route path='/products' element={<Products />} />
-              <Route path='/contactUs' element={<ContactUs />} />
+              <Route path='/services' element={<Services />} />
+              <Route path='/clients' element={<Clients />} />
               <Route path='/careers' element={<Careers />} />
+              <Route path='/contactUs' element={<ContactUs />} />
               <Route path='/rechargeEV' element={<RechargeEV />} />
             </Routes>
           </main>

@@ -37,8 +37,14 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #f7c3b7ff, #ffa5a5ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Sugar Mills</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Milling Application</li>
+                                {/* <li>Milling Application</li>
                                 <li>Centrifugal Machines</li>
+                                <li>Auto Cane Feeding Systems</li>
+                                <li>Plant Automation</li>
+                                <li>Boiler Automation</li>
+                                <li>PAN Automation</li> */}
+                                <li>Drives for Milling Application</li>
+                                <li>Drives & Automation for Sugar Centrifugal Machines</li>
                                 <li>Auto Cane Feeding Systems</li>
                                 <li>Plant Automation</li>
                                 <li>Boiler Automation</li>
@@ -54,11 +60,17 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-dark pe-5" style={{ textAlign: "" }}>
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #006d1bff, #6b8c61ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Paper & Pulp</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Sectional Drives</li>
+                                {/* <li>Sectional Drives</li>
                                 <li>Rewinder Solutions</li>
                                 <li>Boiler Automation</li>
                                 <li>Auxiliary Drive Systems</li>
                                 <li>Automation for A-4 Size Cutting Machines</li>
+                                <li>Drives for Pump & Fan</li> */}
+                                <li>Sectional Paper Machine Drives</li>
+                                <li>Rewinder Solutions</li>
+                                <li>Boiler Automation</li>
+                                <li>Other Auxiliary Drive Systems</li>
+                                <li>Drives & Automation for A-4 Size Cutting Machines</li>
                                 <li>Drives for Pump & Fan</li>
                             </ul>
                         </div>
@@ -77,12 +89,20 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #fff8b8ff, #fffd73ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Metals & Minerals</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Sponge Iron Plants</li>
+                                {/* <li>Sponge Iron Plants</li>
                                 <li>Wire / Bar Rod Plants</li>
                                 <li>Re-Heating Furnaces</li>
                                 <li>Cold Rolling Mills / Skin Pass Mills</li>
                                 <li>Sheet Metals : Pickling Lines, Galvanizing Lines, Cut to Length Lines, Slitting Lines, Annealing Lines</li>
+                                <li>Tube Mills</li> */}
+                                <li>Sponge Iron Plants</li>
+                                <li>Wire / Bar Rod Plants</li>
+                                <li>Re-Heating Furnaces</li>
+                                <li>Cold Rolling Mills</li>
+                                <li>Skin Pass Mills</li>
+                                <li>Sheet Metals: Pickling Lines, Galvanizing Lines, Cut to Length Lines, Slitting Lines, Annealing Lines, Tension & Leveling Lines</li>
                                 <li>Tube Mills</li>
+                                <li>Structure Mills</li>
                             </ul>
                         </div>
                     </div>
@@ -94,10 +114,21 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-dark pe-5" style={{ textAlign: "" }}>
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #9100c1ff, #cd3efdff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Cement Mills</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Solutions for Crushing & Querying Down Hill Conveyors</li>
+                                {/* <li>Solutions for Crushing & Querying Down Hill Conveyors</li>
                                 <li>Drives & Automation for Raw Mills</li>
                                 <li>AC / DC Drives for Kiln Applications</li>
                                 <li>Drives & Automation for Grate Coolers</li>
+                                <li>Drives & Automation for Packing Plants</li>
+                                <li>Motor Control Centers</li>
+                                <li>LT Panel</li>
+                                <li>APFC Panels</li>
+                                <li>Plant SCADA Systems</li> */}
+                                <li>Solutions for Crushing & Querring</li>
+                                <li>Downhill Conveyors</li>
+                                <li>Drives & Automation for Raw Mills</li>
+                                <li>AC / DC Drives for Kiln Applications</li>
+                                <li>Drives & Automation for Grate Coolers</li>
+                                <li>Drives & Automation for Cement Mills</li>
                                 <li>Drives & Automation for Packing Plants</li>
                                 <li>Motor Control Centers</li>
                                 <li>LT Panel</li>
@@ -120,12 +151,19 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-light ps-5">
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #c4f2eeff, #83f8eeff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Solar</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Central SCADA System</li>
+                                {/* <li>Central SCADA System</li>
                                 <li>Junction Boxes</li>
                                 <li>SMB Boxes</li>
                                 <li>Inverters</li>
                                 <li>Transformers</li>
-                                <li>Panels</li>
+                                <li>Panels</li> */}
+                                <li>Central SCADA System</li>
+                                <li>Junction Boxes</li>
+                                <li>SMB Boxes</li>
+                                <li>Inverters</li>
+                                <li>LT Panels</li>
+                                <li>HT Panels</li>
+                                <li>Transformers</li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +177,8 @@ function Services() {
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
                                 <li>SCADA Based Automation System for ETP Plant</li>
                                 <li>Automation System for Biological Water Treatment</li>
-                                <li>GPRS Based Monitoring System Tube Well and Pumping Station</li>
+                                <li>GPRS Based Monitoring System Tube Well</li>
+                                <li>Pumping Station</li>
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">
@@ -176,9 +215,16 @@ function Services() {
                         <div className="col-md-6 col-sm-12 text-dark pe-5" style={{ textAlign: "" }}>
                             <h2 className="fw-bold mb-4" style={{ background: "linear-gradient(90deg, #002ee8ff, #6984ffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Power Sector</h2>
                             <ul className="fs-6 fw-normal" style={{ lineHeight: "1.8" }}>
-                                <li>Automation for Ash Handling Plants</li>
+                                {/* <li>Automation for Ash Handling Plants</li>
                                 <li>Soot Blower Control Systems</li>
+                                <li>Drives for ID / FD / SA / BFW Pumps</li> */}
+                                <li>DCS Based Automation System</li>
+                                <li>Soot Blower Control Systems</li>
+                                <li>LT Panels</li>
+                                <li>HT Panels</li>
+                                <li>AVR & Generator Protection systems</li>
                                 <li>Drives for ID / FD / SA / BFW Pumps</li>
+                                <li>Automation for Ash Handling Plants</li>
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-12 text-center">

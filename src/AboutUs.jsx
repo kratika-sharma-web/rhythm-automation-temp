@@ -126,47 +126,65 @@ function AboutUs() {
             </h1>
             <div className="container my-5 px-5 pb-4">
                 <div className="row g-5 justify-content-center">
-                    <div className="col-lg-4 col-md-6 col-sm-12" >
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer2.png" className="p-4" style={{ width: "100%" }} alt="Certificate-2" />
+                                    <img src="./cer2.png" className="p-1" style={{ width: "100%" }} alt="Certificate-2" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12" >
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer5.png" className="p-4" style={{ width: "100%" }} alt="Certificate-5" />
+                                    <img src="./cer1.png" className="p-1" style={{ width: "100%" }} alt="Certificate-1" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12" >
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer4.png" className="p-4" style={{ width: "100%" }} alt="Certificate-4" />
+                                    <img src="./cer3.png" className="p-1" style={{ width: "100%" }} alt="Certificate-3" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12" >
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer1.png" className="p-4" style={{ width: "100%" }} alt="Certificate-1" />
+                                    <img src="./cer4.png" className="p-1" style={{ width: "100%" }} alt="Certificate-4" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12" >
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
                             <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
                                 <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
-                                    <img src="./cer3.png" className="p-4" style={{ width: "100%" }} alt="Certificate-3" />
+                                    <img src="./cer6.jpg" className="p-1" style={{ width: "100%" }} alt="Certificate-6" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-sm-6">
+                        <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
+                            <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
+                                <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
+                                    <img src="./cer5.png" className="p-1" style={{ width: "100%" }} alt="Certificate-5" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-sm-6">
+                        <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
+                            <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
+                                <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
+                                    <img src="./cer7.jpg" className="p-1" style={{ width: "100%" }} alt="Certificate-7" />
                                 </div>
                             </div>
                         </div>
