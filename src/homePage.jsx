@@ -221,7 +221,7 @@ function HomePage() {
                     <button className="btn btn-info" onClick={() => { navigate('/services') }}>Know More...</button>
                 </div>
             </div>
-            <div className="conatiner mt-5" style={{ marginBottom: "100px", marginLeft: "5rem", marginRight: "5rem" }}>
+            <div className="conatiner mt-5" style={{ marginBottom: "75px", marginLeft: "5rem", marginRight: "5rem" }}>
                 <div className="card rounded" style={{ width: "100%" }}>
                     <div className="d-flex flex-column flex-md-row align-items-center justify-content-center display-5 p-5" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", gap: "10px" }}>
                         <img src="./quoteIcon.png" className="quote-img-left" />
