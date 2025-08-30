@@ -20,11 +20,8 @@ function AboutUs() {
                             <p className="pb-3" style={{ background: "linear-gradient(135deg, #940000ff, #70008aff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                                 The company's agenda is to create a - One stop solution Centre for all industrial Automation needs that can keep its customer delighted with its services, prompt response, and timely delivery while guaranteeing optimal pricing.
                             </p>
-                            <p className="pb-3" style={{ background: "linear-gradient(135deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                The management team has good industrial experience of 24+ years, providing added value through a high level of product and solution support in Electrical and Automation Industries.
-                            </p>
-                            <p style={{ background: "linear-gradient(135deg, #940000ff, #70008aff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                The company's strength lies in quick and expert after sales services. This is proved by the repeated orders and more then 20 plant AMCs. It maintains sufficient stock of all the products offered, as it works in Noida to provide prompt service to the customers.
+                            <p style={{ background: "linear-gradient(135deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                The management team has good industrial experience of 25+ years, providing added value through a high level of product and solution support in Electrical and Automation Industries.
                             </p>
                         </strong>
                     </div>
