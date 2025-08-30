@@ -25,9 +25,18 @@ function Services() {
     }, [serviceSelected])
     return (
         <>
-            <h1 className="text-center display-4 py-5" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", lineHeight: "1.4" }}>
+            <h1 className="text-center display-4 pt-5" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", lineHeight: "1.4" }}>
                 <strong className="pt-3" style={{ background: "linear-gradient(90deg, #4f2500ff, #003853ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4" }}>Our Services</strong>
             </h1>
+            <div className="conatiner border rounded p-1" style={{ marginTop: "5rem", marginBottom: "5rem", marginLeft: "5rem", marginRight: "5rem" }}>
+                <div className="card rounded border-2 p-1" style={{ width: "100%" }}>
+                    <div className="border rounded d-flex flex-column flex-md-row align-items-center justify-content-center fs-5 p-5">
+                        <strong className="fw-medium" style={{ background: "linear-gradient(90deg, #59006dff, #670000ff, #59006dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "inline-block", lineHeight: "1.4", textAlign: "center" }}>
+                            Our core competence lies in understanding unique process and automation requirements, engineering and software development to suit such requirements, and performing on-site commissioning. This is backed by a strong and skilled team of technocrats with diverse experience across a range of industries and under different conditions.
+                        </strong>
+                    </div>
+                </div>
+            </div>
             <div className="w-100 bg-dark py-5" id="servicesSugarMills">
                 <div className="container my-4">
                     <div className="row g-5 align-items-center">
@@ -253,6 +262,23 @@ function Services() {
                                 <li>Fire Alarm Panels</li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="conatiner border rounded p-1" style={{ marginTop: "5rem", marginBottom: "5rem", marginLeft: "5rem", marginRight: "5rem" }}>
+                <div className="card rounded border-2 p-1" style={{ width: "100%" }}>
+                    <div className="border rounded d-flex flex-column flex-md-row align-items-center justify-content-center px-5 pt-5 pb-4">
+                        <strong className="fw-semibold" style={{ display: "inline-block", lineHeight: "1.6", textAlign: "justify" }}>
+                            <p className="pb-3" style={{ background: "linear-gradient(90deg, #670000ff, #59006dff, #670000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                Rhythm Automation is committed to managing comprehensive project execution from the initial idea to the final commissioning. Our proficient team members provide excellent services, beginning with the preparation of detailed layout drawings and continuing with the supervision of all erection and cabling. We guarantee the smooth integration of automation and electrical components to meet your specific process requirements.
+                            </p>
+                            <p className="pb-3" style={{ background: "linear-gradient(90deg, #59006dff, #670000ff, #59006dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                It offers specialized retrofit solutions to modernize your existing systems. We provide complete solutions for challenges within your current system by utilizing our expertise in the latest automation trends, such as Modbus, Ethernet, Profibus, Profinet and OPC. Furthermore, we develop custom-built SCADA and reporting packages based on Visual Basic and OPC clients to ensure seamless integration with your plant's existing systems.
+                            </p>
+                            <p className="pb-3" style={{ background: "linear-gradient(90deg, #670000ff, #59006dff, #670000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                Our strength lies in providing quick and expert after-sales support, as proven by our repeat orders and over 20 plant AMCs. To ensure prompt service and minimize your downtime, we maintain a sufficient stock of all our products at our Noida works. We are dedicated to building a long-term partnership, offering flexible and reliable service that ensures the ongoing productivity of your operations.
+                            </p>
+                        </strong>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ function AboutUs() {
             </h1>
             <div className="conatiner border rounded p-1 my-5" style={{ marginLeft: "5rem", marginRight: "5rem" }}>
                 <div className="card rounded border-2 p-1" style={{ width: "100%" }}>
-                    <div className="border rounded d-flex flex-column flex-md-row align-items-center justify-content-center p-5">
+                    <div className="border rounded d-flex flex-column flex-md-row align-items-center justify-content-center px-5 pt-5 pb-4">
                         <strong className="fw-semibold" style={{ display: "inline-block", lineHeight: "1.6", textAlign: "justify" }}>
                             <p className="pb-3" style={{ background: "linear-gradient(135deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                                 Rhythm Automation Solutions (P) Ltd is established by a team of highly skilled and professionally managed engineers with a dream and determination to provide reliable and cost-optimized solutions for most Industrial Automation needs.
@@ -100,7 +100,7 @@ function AboutUs() {
             </h1>
             <div className="conatiner my-5" style={{ marginLeft: "5rem", marginRight: "5rem" }}>
                 <div className="card rounded" style={{ width: "100%" }}>
-                    <div className="d-flex flex-column flex-md-row align-items-center justify-content-center p-5">
+                    <div className="d-flex flex-column flex-md-row align-items-center justify-content-center px-5 pt-5 pb-4">
                         <strong className="fw-medium" style={{ display: "inline-block", lineHeight: "1.6", textAlign: "justify" }}>
                             <p style={{ background: "linear-gradient(45deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                                 The company is a thriving enterprise with over 100 dedicated employees and a spacious shop floor spanning 30000 square feet. From the advanced machinery on the production floor to the cutting-edge software in the administrative offices, the company is constantly investing in new technology and processes to stay ahead of the competition.
