@@ -262,6 +262,20 @@ function HomePage() {
                     </div>
                 </div>
             </div>
+            <div className="conatiner" style={{ marginTop: "5rem", marginBottom: "5rem", marginLeft: "5rem", marginRight: "5rem" }}>
+                <div className="card border-2 rounded" style={{ width: "100%" }}>
+                    <div className="d-flex flex-column flex-md-row align-items-center justify-content-center pt-5 px-5 pb-4">
+                        <strong className="fw-semibold" style={{ display: "inline-block", lineHeight: "1.6", textAlign: "justify" }}>
+                            <p className="pb-3" style={{ background: "linear-gradient(90deg, #59006dff, #670000ff, #59006dff, #670000ff, #59006dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                Rhythm has a team of technically qualified professional engineers, with more vast experience in the field of Marketing, Application Engineering, Design, Project Execution, Software Development, Commissioning and Customer support. Going beyond expertise and product excellence, Rhythm's core key strength lies in its totally committed and highly motivated people across all organizational functional areas.
+                            </p>
+                            <p style={{ background: "linear-gradient(90deg, #59006dff, #670000ff, #59006dff, #670000ff, #59006dff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                A Fully equipped training centre with ABB make of PLC, Drives and SCADA available in Noida office for customer training on ABB products.
+                            </p>
+                        </strong>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

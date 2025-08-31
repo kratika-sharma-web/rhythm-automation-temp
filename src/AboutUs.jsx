@@ -104,15 +104,19 @@ function AboutUs() {
                             </p>
                             <br />
                             <p style={{ background: "linear-gradient(45deg, #940000ff, #70008aff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                With a team of skilled professionals at the helm, the company can provide exceptional service and support to its clients, meeting their unique needs and exceeding their expectations. From concept to delivery, the company is motivated to provide world-class solutions that help its clients achieve their goals and succeed in their respective industries.
+                                Rhythm has a fully equipped workshop and lab at Noida with complete Automation system design and manufacturing facility from panel fabrication to FAT (Factory Acceptance Test) of Drives, PLC, DCS, SCADA SYSTEMS, PCCs, MCCs, APFCs, Instrumentation & Slip power recovery systems for slip ring motors.
                             </p>
                             <br />
                             <p style={{ background: "linear-gradient(45deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                It has a full fledged design & engineering division with latest tools like AutoCad & Eplan to ensure drawings and documentation to meet the requirements of the client. Latest ABB selection softwares are used to ensure proper sizing & optimum solutions to the customers.
+                                With a team of skilled professionals at the helm, the company can provide exceptional service and support to its clients, meeting their unique needs and exceeding their expectations. From concept to delivery, the company is motivated to provide world-class solutions that help its clients achieve their goals and succeed in their respective industries.
                             </p>
                             <br />
                             <p style={{ background: "linear-gradient(45deg, #940000ff, #70008aff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                                A well trained E&C team offers services in preparing Layout Drawings of Electrical Rooms, Operator Cabins and floor plans considering the Process Requirements, supervision of erection, cabling and commissioning of Drives and PLC / MMI Automation electrics including MCC's, Operator stations.
+                                It has a full fledged design & engineering division with latest tools like AutoCad & Eplan to ensure drawings and documentation to meet the requirements of the client. Latest ABB selection softwares are used to ensure proper sizing & optimum solutions to the customers.
+                            </p>
+                            <br />
+                            <p style={{ background: "linear-gradient(45deg, #70008aff, #940000ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                                A well trained E&C team offers services in preparing Layout Drawings of Electrical Rooms, Operator Cabins and floor plans considering the Process Requirements, supervision of erection, cabling and commissioning of Drives and PLC / MMI Automation electrics including MCC's, Operator stations. A strong team with highly qualified and experienced engineers can meet any complex software requirements of the process. The team offers support in developing PLC software, SCADA developments and custom built PC based software.
                             </p>
                         </strong>
                     </div>

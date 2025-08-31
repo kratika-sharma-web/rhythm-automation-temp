@@ -61,6 +61,30 @@ function ContactUs() {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-6 col-sm-12">
+                        <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
+                            <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
+                                <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
+                                    <div className="pt-3 pb-2 d-flex flex-column px-3 align-items-center justify-content-center">
+                                        <img src="/qr.jpg" alt="QR Code" width={200} />
+                                        <p>Scan to Chat with Our Experts</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6 col-sm-12">
+                        <div className="border rounded p-1" style={{ width: "100%", height: "100%" }}>
+                            <div className="card rounded border-2 p-1" style={{ width: "100%", height: "100%" }}>
+                                <div className="border rounded p-1 d-flex align-items-center justify-content-center" style={{ width: "100%", height: "100%" }}>
+                                    <div className="pt-3 pb-2 d-flex flex-column px-3 align-items-center justify-content-center">
+                                        <img src="/qr.jpg" alt="QR Code" width={200} />
+                                        <p>Scan to Connect with our Team</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <h1 className="text-center display-4 pt-5" style={{ fontFamily: "'Poppins', serif", fontWeight: "500", letterSpacing: "1px", lineHeight: "1.4" }}>
