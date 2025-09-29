@@ -5,12 +5,12 @@ import jwt from "jsonwebtoken"
 
 const app = express()
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://rhythm-automation-deploy.vercel.app",
     credentials: true
 }))
 app.use(express.json())
 
-mongoose.connect("mongodb://localhost:27017/rhythm_automation")
+mongoose.connect("process.env.MONGODB_URI")
 
 const adminSchema = new mongoose.Schema({
     username: String,
