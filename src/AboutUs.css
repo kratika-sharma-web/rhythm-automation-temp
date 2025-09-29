@@ -1,0 +1,29 @@
+.pillar-text-right {
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.pillar-text-left {
+    padding-left: 3rem;
+    padding-right: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .pillar-text-right {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .pillar-text-left {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+}
