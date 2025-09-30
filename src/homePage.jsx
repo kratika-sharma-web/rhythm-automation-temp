@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useNavigate, Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { CgChevronDoubleRight } from "react-icons/cg"
 import "./HomePage.css"
 
@@ -274,9 +274,6 @@ function HomePage() {
                             </p>
                         </strong>
                     </div>
-                </div>
-                <div>
-                    <Link to="/ra-admin">Go to Admin Login</Link>
                 </div>
             </div>
         </>
