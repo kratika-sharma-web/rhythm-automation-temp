@@ -275,6 +275,9 @@ function HomePage() {
                         </strong>
                     </div>
                 </div>
+                <div>
+                    <Link to="/ra-admin">Go to Admin Login</Link>
+                </div>
             </div>
         </>
     )
