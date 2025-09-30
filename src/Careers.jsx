@@ -11,7 +11,7 @@ function Careers() {
     const [careerMessage, setCareerMessage] = useState("")
     const handleCareerSubmit = (e) => {
         e.preventDefault()
-        axios.post('http://localhost:3001/careerFormEntry', {
+        axios.post('/api/careerFormEntry', {
             name: careerName,
             email: careerEmail,
             phone: careerPhone,

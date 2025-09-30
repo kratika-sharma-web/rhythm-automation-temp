@@ -7,7 +7,7 @@ function RAadmin() {
     const [username, setUsername]=useState("")
     const [password, setPassword]=useState("")
         const handleAdminLogin=()=>{
-            axios.post('http://localhost:3001/adminLogin', {
+            axios.post('/api/adminLogin', {
                 username: username,
                 password: password
             })

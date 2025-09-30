@@ -12,7 +12,7 @@ function ContactUs() {
     const [contactUsMessage, setContactUsMessage] = useState("")
     const handleContactUsSubmit = (e) => {
         e.preventDefault()
-        axios.post('http://localhost:3001/contactUsFormEntry', {
+        axios.post('/api/contactUsFormEntry', {
             name: contactUsName,
             email: contactUsEmail,
             phone: contactUsPhone,

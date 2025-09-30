@@ -7,7 +7,7 @@ function FooterBar() {
     const [contactEmail, setContactEmail] = useState("")
     const handleContactEmail = (e) => {
         e.preventDefault()
-        axios.post('http://localhost:3001/contactEmailEntry', {
+        axios.post('/api/contactEmailEntry', {
             email: contactEmail
         })
             .then((res) => {

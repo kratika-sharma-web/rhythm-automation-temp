@@ -16,7 +16,7 @@ function RAdashboard() {
         }
         const verifyTokenAndLoadContent = async () => {
             try {
-                const res = await axios.get('http://localhost:3001/adminDashboard/', {
+                const res = await axios.get('/api/adminDashboard/', {
                     headers: {
                         Authorization: `Bearer ${adminToken}`
                     }
@@ -35,7 +35,7 @@ function RAdashboard() {
     const [careersList, setCareersList] = useState([])
     const [contactEmailList, setContactEmailList] = useState([])
     useEffect(() => {
-        axios.get('http://localhost:3001/adminFormsData/')
+        axios.get('/api/adminFormsData/')
             .then((res) => {
                 const updatedContactUsList = res.data.contactUsList.map((item) => ({
                     ...item,
@@ -59,7 +59,7 @@ function RAdashboard() {
             .catch(err => console.error(err))
     }, [])
     const handleContactUsEntryDelete = (deleteContactUsEntry) => {
-        axios.post('http://localhost:3001/handleContactUsEntryDelete/', {
+        axios.post('/api/handleContactUsEntryDelete/', {
             deleteContactUsEntry: deleteContactUsEntry
         })
             .then((res) => {
@@ -68,7 +68,7 @@ function RAdashboard() {
             .catch(err => console.error(err))
     }
     const handleCareerEntryDelete = (deleteCareerEntry) => {
-        axios.post('http://localhost:3001/handleCareerEntryDelete/', {
+        axios.post('/api/handleCareerEntryDelete/', {
             deleteCareerEntry: deleteCareerEntry
         })
             .then((res) => {
@@ -77,7 +77,7 @@ function RAdashboard() {
             .catch(err => console.error(err))
     }
     const handleContactEmailEntryDelete = (deleteContactEmailEntry) => {
-        axios.post('http://localhost:3001/handleContactEmailEntryDelete/', {
+        axios.post('/api/handleContactEmailEntryDelete/', {
             deleteContactEmailEntry: deleteContactEmailEntry
         })
             .then((res) => {
@@ -129,7 +129,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: "", isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleContactUsSaveComment/', {
+        axios.post('/api/handleContactUsSaveComment/', {
             entryId: entryId,
             contactUsComment: ""
         })
@@ -151,7 +151,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: updatedList[index].tempComment, isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleContactUsSaveComment/', {
+        axios.post('/api/handleContactUsSaveComment/', {
             entryId: entryId,
             contactUsComment: contactUsList.find((i) => i._id === entryId)?.tempComment
         })
@@ -209,7 +209,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: "", isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleCareerSaveComment/', {
+        axios.post('/api/handleCareerSaveComment/', {
             entryId: entryId,
             careerComment: ""
         })
@@ -231,7 +231,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: updatedList[index].tempComment, isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleCareerSaveComment/', {
+        axios.post('/api/handleCareerSaveComment/', {
             entryId: entryId,
             careerComment: careersList.find((i) => i._id === entryId)?.tempComment
         })
@@ -289,7 +289,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: "", isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleContactEmailSaveComment/', {
+        axios.post('/api/handleContactEmailSaveComment/', {
             entryId: entryId,
             contactEmailComment: ""
         })
@@ -311,7 +311,7 @@ function RAdashboard() {
             updatedList[index] = { ...updatedList[index], comment: updatedList[index].tempComment, isEditing: false }
             return updatedList
         })
-        axios.post('http://localhost:3001/handleContactEmailSaveComment/', {
+        axios.post('/api/handleContactEmailSaveComment/', {
             entryId: entryId,
             contactEmailComment: contactEmailList.find((i) => i._id === entryId)?.tempComment
         })
