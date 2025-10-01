@@ -13,9 +13,6 @@ function Header() {
                         <div className="collapse navbar-collapse fw-medium" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "btn btn-dark" : "nav-link"} style={{ fontSize: "0.9rem" }} aria-current="page" to="/ra-admin">Admin</NavLink>
-                                </li>
-                                <li className="nav-item">
                                     <NavLink className={({ isActive }) => isActive ? "btn btn-dark" : "nav-link"} style={{ fontSize: "0.9rem" }} aria-current="page" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
