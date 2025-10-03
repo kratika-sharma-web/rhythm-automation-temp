@@ -36,9 +36,6 @@ function Header() {
                                 <li className="nav-item">
                                     <NavLink className="btn btn-primary" style={{ fontSize: "0.9rem" }} aria-current="page" to="/rechargeEV">Recharge EV</NavLink>
                                 </li>
-                                <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "ms-2 btn btn-dark" : "nav-link"} style={{ fontSize: "0.9rem" }} aria-current="page" to="/ra-admin">Admin</NavLink>
-                                </li>
                             </ul>
                         </div>
                     </div>
