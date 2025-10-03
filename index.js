@@ -44,7 +44,7 @@ const ContactEmail = mongoose.model('contact-emails', contactEmailSchema)
 
 // contactUs
 
-app.post('/contactUsFormEntry', async (req, res) => {
+app.post('/api/contactUsFormEntry', async (req, res) => {
     const { name, email, phone, message } = req.body
     try {
         const contactUsEntrySaved = new ContactUsForm({
@@ -64,7 +64,7 @@ app.post('/contactUsFormEntry', async (req, res) => {
 
 // careers
 
-app.post('/careerFormEntry', async (req, res) => {
+app.post('/api/careerFormEntry', async (req, res) => {
     const { name, email, phone, message } = req.body
     try {
         const careerEntrySaved = new CareerForm({
@@ -84,7 +84,7 @@ app.post('/careerFormEntry', async (req, res) => {
 
 // FooterBar
 
-app.post('/contactEmailEntry', async (req, res) => {
+app.post('/api/contactEmailEntry', async (req, res) => {
     const { email } = req.body
     try {
         const contactEmailSaved = new ContactEmail({
@@ -101,7 +101,7 @@ app.post('/contactEmailEntry', async (req, res) => {
 
 // ra-admin
 
-app.post('/adminLogin', async (req, res) => {
+app.post('/api/adminLogin', async (req, res) => {
     const { username, password } = req.body
     try {
         const admin = await Admins.findOne({ username, password })
@@ -139,11 +139,11 @@ const verifyAdminToken = (req, res, next) => {
 
 // ra-admin-dashboard
 
-app.get('/adminDashboard', verifyAdminToken, (req, res) => {
+app.get('/api/adminDashboard', verifyAdminToken, (req, res) => {
     res.status(200).send({ message: "Welcome to the Admin Dashboard!", admin: req.admin })
 })
 
-app.get('/adminFormsData', async (req, res) => {
+app.get('/api/adminFormsData', async (req, res) => {
     try {
         const contactUsList = await ContactUsForm.find({})
         const careersList = await CareerForm.find({})
@@ -155,7 +155,7 @@ app.get('/adminFormsData', async (req, res) => {
     }
 })
 
-app.post('/handleContactUsEntryDelete', async (req, res) => {
+app.post('/api/handleContactUsEntryDelete', async (req, res) => {
     const { deleteContactUsEntry } = req.body
     try {
         const deletedContactUsEntry = await ContactUsForm.findByIdAndDelete(deleteContactUsEntry)
@@ -166,7 +166,7 @@ app.post('/handleContactUsEntryDelete', async (req, res) => {
     }
 })
 
-app.post('/handleCareerEntryDelete', async (req, res) => {
+app.post('/api/handleCareerEntryDelete', async (req, res) => {
     const { deleteCareerEntry } = req.body
     try {
         const deletedCareerEntry = await CareerForm.findByIdAndDelete(deleteCareerEntry)
@@ -177,7 +177,7 @@ app.post('/handleCareerEntryDelete', async (req, res) => {
     }
 })
 
-app.post('/handleContactEmailEntryDelete', async (req, res) => {
+app.post('/api/handleContactEmailEntryDelete', async (req, res) => {
     const { deleteContactEmailEntry } = req.body
     try {
         const deletedContactEmailEntry = await ContactEmail.findByIdAndDelete(deleteContactEmailEntry)
@@ -188,7 +188,7 @@ app.post('/handleContactEmailEntryDelete', async (req, res) => {
     }
 })
 
-app.post('/handleContactUsSaveComment', async (req, res) => {
+app.post('/api/handleContactUsSaveComment', async (req, res) => {
     const { entryId, contactUsComment } = req.body
     try {
         const savedContactUsComment = await ContactUsForm.findByIdAndUpdate(entryId, { $set: { comment: contactUsComment } }, { new: true })
@@ -199,7 +199,7 @@ app.post('/handleContactUsSaveComment', async (req, res) => {
     }
 })
 
-app.post('/handleCareerSaveComment', async (req, res) => {
+app.post('/api/handleCareerSaveComment', async (req, res) => {
     const { entryId, careerComment } = req.body
     try {
         const savedCareerComment = await CareerForm.findByIdAndUpdate(entryId, { $set: { comment: careerComment } }, { new: true })
@@ -210,7 +210,7 @@ app.post('/handleCareerSaveComment', async (req, res) => {
     }
 })
 
-app.post('/handleContactEmailSaveComment', async (req, res) => {
+app.post('/api/handleContactEmailSaveComment', async (req, res) => {
     const { entryId, contactEmailComment } = req.body
     try {
         const savedContactEmailComment = await ContactEmail.findByIdAndUpdate(entryId, { $set: { comment: contactEmailComment } }, { new: true })
@@ -221,6 +221,6 @@ app.post('/handleContactEmailSaveComment', async (req, res) => {
     }
 })
 
-app.listen(3001, () => {
-    console.log("Server is running...")
-})
+// app.listen(3001, () => {
+//     console.log("Server is running...")
+// })
