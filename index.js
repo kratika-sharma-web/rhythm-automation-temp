@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken"
 
 const app = express()
 app.use(cors({
-    origin: ["http://localhost:5173", "https://rhythm-automation-deploy.vercel.app"],
+    origin: ["http://localhost:5173", "https://rhythm-automation-temp.vercel.app"],
     credentials: true
 }))
 app.use(express.json())
